@@ -41,7 +41,6 @@ const Slider = (props: Props) => {
   const {
     customSliderStyle,
     duration,
-    mainColor,
     onFullScreen,
     onPause,
     progress,
