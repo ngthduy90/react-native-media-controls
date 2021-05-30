@@ -5,7 +5,6 @@ import {
   Text,
   Image,
   ViewStyle,
-  Platform,
 } from "react-native";
 import RNSlider from "react-native-slider";
 import styles from "./MediaControls.style";
@@ -41,7 +40,6 @@ const Slider = (props: Props) => {
   const {
     customSliderStyle,
     duration,
-    mainColor,
     onFullScreen,
     onPause,
     progress,
