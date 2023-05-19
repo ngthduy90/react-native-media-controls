@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  TouchableOpacity,
-  View,
-  Text,
-  Image,
-  ViewStyle,
-} from "react-native";
+import { TouchableOpacity, View, Text, Image, ViewStyle } from "react-native";
 import RNSlider from "react-native-slider";
 import styles from "./MediaControls.style";
 import { getPlayerStateIcon, humanizeVideoDuration } from "./utils";

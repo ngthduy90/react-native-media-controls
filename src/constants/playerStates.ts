@@ -3,7 +3,7 @@ enum PLAYER_STATES {
   PAUSED = 1,
   ENDED = 2,
   MUTE = 3,
-  UN_MUTE = 4
+  UN_MUTE = 4,
 }
 
 export { PLAYER_STATES };
